@@ -53,6 +53,11 @@ import {Observable, of} from "rxjs";
               </a>
             </li>
             <li class="action" (click)="mobileMenuOpen = false">
+              <a [routerLink]="['/', 'notes']" [routerLinkActive]="'isActive'">
+                Notes
+              </a>
+            </li>
+            <li class="action" (click)="mobileMenuOpen = false">
               <a [routerLink]="['/', 'about']" [routerLinkActive]="'isActive'">
                 About
               </a>
