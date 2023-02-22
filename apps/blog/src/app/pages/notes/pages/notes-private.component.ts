@@ -1,6 +1,8 @@
 import {Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
-import {ActivatedRoute} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 import {environment} from "../../../../environments/environment";
+import {Auth, signOut} from "@angular/fire/auth";
+import {Firestore} from "@angular/fire/firestore";
 @Component({
   selector: 'app-notes-private',
   template: `
@@ -16,8 +18,11 @@ import {environment} from "../../../../environments/environment";
           <h1 class="web">Private notes</h1>
           <h3 class="mobile">Private notes</h3>
           <div class="buttons">
-            <app-button *ngIf="!isProd" [routerLink]="['/', 'notes', 'private', 'editor']">
+            <app-button *ngIf="!isProd" [routerLink]="['/', 'notes', 'private', 'editor']" style="margin-right: 8px;">
               Editor
+            </app-button>
+            <app-button (click)="logout()">
+              Logout
             </app-button>
           </div>
         </div>
@@ -58,10 +63,19 @@ export class PrivateNotesComponent {
 
   list: Array<any> = [];
 
-  constructor(private activatedRoute: ActivatedRoute) {
+  constructor(private activatedRoute: ActivatedRoute,
+              private auth: Auth,
+              private firestore: Firestore,
+              private router: Router) {
     this.isProd =environment.production;
 
     this.list = (this.activatedRoute.data as any).getValue()['data'];
+  }
+
+  logout() {
+    signOut(this.auth).then(() => {
+      this.router.navigate(['']);
+    })
   }
 
 }

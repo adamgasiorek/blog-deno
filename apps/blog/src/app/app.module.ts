@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrivComponent } from './priv.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { environment } from '../environments/environment';
+import {getAuth, provideAuth} from "@angular/fire/auth";
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { environment } from '../environments/environment';
     HttpClientModule,
     AppRoutingModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
     provideStorage(() => getStorage()),
     provideFirestore(() => getFirestore()),
     provideAnalytics(() => getAnalytics()),

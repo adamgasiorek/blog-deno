@@ -6,6 +6,7 @@ import {NotesComponent} from "./pages/notes.component";
 import {firstValueFrom} from "rxjs";
 import {NoteEditorComponent} from "./pages/note-editor.component";
 import {PrivateNotesComponent} from "./pages/notes-private.component";
+import {AuthGuard, redirectLoggedInTo, redirectUnauthorizedTo} from "@angular/fire/auth-guard";
 
 @Injectable({
   providedIn: 'root'
@@ -57,6 +58,8 @@ class DatabaseResolver implements Resolve<any> {
   }
 }
 
+const redirectUnauthorizedToLogin = () => redirectUnauthorizedTo(['auth']);
+
 const routes: Routes = [
   {
     path: '',
@@ -72,15 +75,21 @@ const routes: Routes = [
     component: PrivateNotesComponent,
     resolve: {
       data: DatabasePrivateResolver
-    }
+    },
+    canActivate: [AuthGuard],
+    data: { authGuardPipe: redirectUnauthorizedToLogin }
   },
   {
     path: 'private/editor',
-    component: NoteEditorComponent
+    component: NoteEditorComponent,
+    canActivate: [AuthGuard],
+    data: { authGuardPipe: redirectUnauthorizedToLogin }
   },
   {
     path: 'family',
     loadChildren: () => import('./custom-pages/family/family.module').then((s) => s.FamilyModule),
+    canActivate: [AuthGuard],
+    data: { authGuardPipe: redirectUnauthorizedToLogin }
   },
   {
     path: ':id',

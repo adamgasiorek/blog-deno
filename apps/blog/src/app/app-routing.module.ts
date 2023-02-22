@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {PrivComponent} from "./priv.component";
 
+
 const routes: Routes = [
   {
     path: '',
@@ -11,6 +12,11 @@ const routes: Routes = [
     path: 'map',
     loadChildren: () => import('./pages/map/map.module').then((s) => s.MapModule),
   },
+  {
+    path: 'auth',
+    loadChildren: () => import('./pages/auth/auth.module').then((s) => s.AuthModule),
+  },
+
   {
     path: 'resume',
     loadChildren: () => import('./pages/resume/resume.module').then((s) => s.ResumeModule),
