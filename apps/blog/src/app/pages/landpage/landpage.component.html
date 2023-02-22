@@ -1,0 +1,44 @@
+<app-page-layout>
+  <ng-container header>
+    <app-header></app-header>
+  </ng-container>
+  <ng-container body>
+
+    <app-loader></app-loader>
+
+    <app-hero></app-hero>
+
+    <app-section-image
+      [routerLink]="['/', 'photos']"
+      [title]="'Photography'"
+      [description]="'Travelling in my eyes'"
+      [link]="['']"
+      [image]="'assets/photos.webp'">
+    </app-section-image>
+
+    <app-section-image
+      [routerLink]="['/', 'resume']"
+      [title]="'Resume'"
+      [description]="'My experience in work'"
+      [link]="['']"
+      [image]="'assets/cv.webp'">
+    </app-section-image>
+
+    <app-section-image
+      [routerLink]="['/', 'about']"
+      [title]="'About me'"
+      [description]="'Let me introduce myself'"
+      [link]="['']"
+      [image]="'assets/about.webp'">
+    </app-section-image>
+
+  </ng-container>
+  <ng-container footer>
+    <app-footer></app-footer>
+  </ng-container>
+</app-page-layout>
+
+
+
+
+

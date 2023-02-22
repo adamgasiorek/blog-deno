@@ -1,0 +1,29 @@
+{
+  "hosting": [{
+    "target": "blog",
+    "public": "dist/apps/blog/browser",
+    "ignore": [
+      "**/.*"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+    {
+    "target": "priv",
+    "public": "dist/apps/priv",
+    "ignore": [
+      "**/.*"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+    }
+  ]
+}

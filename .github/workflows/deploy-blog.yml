@@ -1,0 +1,26 @@
+name: Deploy blog
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy_live_website:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.17.1
+      - name: npm dependencies
+        run: npm install
+      - run: npm run build:blog:prerender
+      - name: Deploy hosting
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting:blog
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          PROJECT_ID: 'adamgasiorek-c204a'

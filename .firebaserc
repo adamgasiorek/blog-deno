@@ -1,0 +1,22 @@
+{
+  "targets": {
+    "adamgasiorek-c204a": {
+      "hosting": {
+        "blog": [
+          "adamgasiorek-c204a"
+        ]
+      }
+    },
+    "adamgasiorek-priv": {
+      "hosting": {
+        "priv": [
+          "adamgasiorek-priv"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "adamgasiorek-c204a",
+    "priv": "adamgasiorek-priv"
+  }
+}

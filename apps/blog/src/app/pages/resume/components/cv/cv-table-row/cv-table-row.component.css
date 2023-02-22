@@ -1,0 +1,32 @@
+section {
+  display: flex;
+}
+@media only screen and (max-width: 1024px) {
+  section {
+    flex-direction: column;
+  }
+}
+section .wrapper {
+  width: 350px;
+}
+.values {
+  width: 100%;
+  padding: 8px 0 56px 0;
+}
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 1024px) {
+  .headers {
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .description {
+    font-size: 80%;
+  }
+}
+
