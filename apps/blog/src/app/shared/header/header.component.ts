@@ -23,6 +23,11 @@ import {Observable, of} from "rxjs";
               Resume
             </a>
           </li>
+          <li class="action">
+            <a [routerLink]="['/', 'notes']" [routerLinkActive]="'isActive'">
+              Notes
+            </a>
+          </li>
           <li class="action last-text">
             <a [routerLink]="['/', 'about']" [routerLinkActive]="'isActive'">
               About

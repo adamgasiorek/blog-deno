@@ -28,10 +28,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/notes/notes.module').then((s) => s.NotesModule),
   },
   {
-    path: 'family',
-    loadChildren: () => import('./pages/family/family.module').then((s) => s.FamilyModule),
-  },
-  {
     path: 'priv',
     component: PrivComponent
   }

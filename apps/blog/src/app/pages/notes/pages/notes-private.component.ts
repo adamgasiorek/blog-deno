@@ -2,7 +2,7 @@ import {Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
 import {environment} from "../../../../environments/environment";
 @Component({
-  selector: 'app-notes',
+  selector: 'app-notes-private',
   template: `
     <app-page-layout>
 
@@ -13,11 +13,11 @@ import {environment} from "../../../../environments/environment";
       <ng-container body>
 
         <div class="headers">
-          <h1 class="web">Notes</h1>
-          <h3 class="mobile">Notes</h3>
+          <h1 class="web">Private notes</h1>
+          <h3 class="mobile">Private notes</h3>
           <div class="buttons">
-            <app-button *ngIf="!isProd" [routerLink]="['/', 'notes', 'private']">
-              Private
+            <app-button *ngIf="!isProd" [routerLink]="['/', 'notes', 'private', 'editor']">
+              Editor
             </app-button>
           </div>
         </div>
@@ -53,7 +53,7 @@ import {environment} from "../../../../environments/environment";
     }
   `]
 })
-export class NotesComponent {
+export class PrivateNotesComponent {
   isProd;
 
   list: Array<any> = [];

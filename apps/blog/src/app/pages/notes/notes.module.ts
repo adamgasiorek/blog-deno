@@ -10,6 +10,7 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {UiModule} from "@adamgasiorek/ui";
 import {SharedModule} from "../../shared";
 import {NoteThumbComponent} from "./components/note-thumb/note-thumb.component";
+import {PrivateNotesComponent} from "./pages/notes-private.component";
 
 function markedOptionsFactory(): MarkedOptions {
   const renderer = new MarkedRenderer();
@@ -33,6 +34,7 @@ function markedOptionsFactory(): MarkedOptions {
     NoteComponent,
     NoteEditorComponent,
     NotesComponent,
+    PrivateNotesComponent,
     NoteThumbComponent
   ],
   imports: [
