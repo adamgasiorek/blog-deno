@@ -10,6 +10,7 @@ import {GalleryModule, UiModule} from "@adamgasiorek/ui";
 import {IconsModule} from "@adamgasiorek/icons";
 import {AlbumComponent} from "./components/album/album.component";
 import {PipesModule} from "@adamgasiorek/pipes";
+import {ReelsViewComponent} from "./pages/reels-view/reels-view.component";
 
 const components = [
   AlbumComponent
@@ -19,6 +20,7 @@ const pages = [
   AlbumsViewComponent,
   FeaturedPhotosComponent,
   PhotosByTagViewComponent,
+  ReelsViewComponent,
   PhotosViewComponent
 ]
 

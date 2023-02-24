@@ -10,6 +10,8 @@ import {AlbumsAllResolver} from "./pages/albums-view/albums-all.resolver";
 import {PhotosViewComponent} from "./pages/photos-view/photos-view.component";
 import {PhotosDetailsResolver} from "./pages/photos-view/photos-detail.resolver";
 import {PhotosDetailsNestedResolver} from "./pages/photos-view/photos-detail-nested.resolver";
+import {ReelsViewComponent} from "./pages/reels-view/reels-view.component";
+import {ReelsViewResolver} from "./pages/reels-view/reels-view.resolver";
 
 const routes: Routes = [
   {
@@ -24,6 +26,13 @@ const routes: Routes = [
     component: PhotosByTagViewComponent,
     resolve: {
       data: PhotosByTagResolver
+    }
+  },
+  {
+    path: 'reels',
+    component: ReelsViewComponent,
+    resolve: {
+      data: ReelsViewResolver
     }
   },
   {
@@ -64,6 +73,7 @@ const routes: Routes = [
     PhotosByTagResolver,
     PhotosDetailsResolver,
     PhotosDetailsNestedResolver,
+    ReelsViewResolver,
     AlbumsAllResolver
   ],
   exports: [RouterModule]
