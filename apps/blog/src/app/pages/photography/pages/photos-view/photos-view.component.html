@@ -29,14 +29,14 @@
 
       </div>
 
-      <div class="body2" *ngIf="(list | filter:'isVideo':true).length > 0">Videos</div>
-      <app-gallery [nbColumns]="3"
-                   [list]="list | filter:'isVideo':true">
-      </app-gallery>
-
       <div class="body2" *ngIf="(list | filter:'isVideo':false).length > 0">Photos</div>
       <app-gallery [nbColumns]="3"
                    [list]="list | filter:'isVideo':false">
+      </app-gallery>
+
+      <div class="body2" *ngIf="(list | filter:'isVideo':true).length > 0">Videos</div>
+      <app-gallery [nbColumns]="3"
+                   [list]="list | filter:'isVideo':true">
       </app-gallery>
 
     </div>
