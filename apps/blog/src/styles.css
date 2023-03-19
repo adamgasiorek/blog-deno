@@ -11,6 +11,23 @@ body {
   color: var(--fontColor);
 }
 
+table {
+  text-align: left;
+  width: 100%;
+}
+
+tr {
+  display: flex;
+  paddinG: 8px 0;
+}
+
+tfoot tr {
+  border-top: 1px solid #c6c6c6;
+}
+
+td, th {width:100%;clear: both;}
+
+
 html[data-theme="light"] .isDark {
   display: none;
 }

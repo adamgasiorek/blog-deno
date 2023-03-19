@@ -7,56 +7,8 @@ import {firstValueFrom} from "rxjs";
 import {NoteEditorComponent} from "./pages/note-editor.component";
 import {PrivateNotesComponent} from "./pages/notes-private.component";
 import {AuthGuard, redirectLoggedInTo, redirectUnauthorizedTo} from "@angular/fire/auth-guard";
-
-@Injectable({
-  providedIn: 'root'
-})
-class DatabaseAllResolver implements Resolve<any> {
-
-  constructor(private firestore: Firestore) {
-  }
-
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Array<any>  {
-    const data = firstValueFrom(collectionData(query(
-      collection(this.firestore, 'notes'),  where("private", "!=", true)), { idField: 'id' }));
-    return data.then(item => {
-      return item.map(v => v);
-    }) as any;
-  }
-}
-
-@Injectable({
-  providedIn: 'root'
-})
-class DatabasePrivateResolver implements Resolve<any> {
-
-  constructor(private firestore: Firestore) {
-  }
-
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Array<any>  {
-    const data = firstValueFrom(collectionData(query(
-      collection(this.firestore, 'notes'),  where("private", "==", true)), { idField: 'id' }));
-    return data.then(item => {
-      return item.map(v => v);
-    }) as any;
-  }
-}
-
-@Injectable({
-  providedIn: 'root'
-})
-class DatabaseResolver implements Resolve<any> {
-
-  constructor(private firestore: Firestore) {
-  }
-
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Array<any>  {
-    const data = getDoc(doc(this.firestore, 'notes/' + route.params['id']));
-    return data.then(item => {
-      return item.data();
-    }) as any;
-  }
-}
+import {getDownloadURL, listAll, ref, Storage} from "@angular/fire/storage";
+import {DatabaseAllResolver, DatabasePrivateResolver, DatabaseResolver, FilesResolver} from "./resolvers";
 
 const redirectUnauthorizedToLogin = () => redirectUnauthorizedTo(['auth']);
 
@@ -92,10 +44,17 @@ const routes: Routes = [
     data: { authGuardPipe: redirectUnauthorizedToLogin }
   },
   {
+    path: 'renovating',
+    loadChildren: () => import('./custom-pages/renovating/renovating.module').then((s) => s.RenovatingModule),
+    // canActivate: [AuthGuard],
+    // data: { authGuardPipe: redirectUnauthorizedToLogin }
+  },
+  {
     path: ':id',
     component: NoteComponent,
     resolve: {
-      data: DatabaseResolver
+      data: DatabaseResolver,
+      files: FilesResolver
     }
   }
 ];

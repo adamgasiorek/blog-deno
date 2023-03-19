@@ -13,6 +13,12 @@ import {ActivatedRoute} from "@angular/router";
 
         <div class="markdown" #dataContainer></div>
 
+        <ul>
+          <li *ngFor="let file of files">
+            <a target="_blank" [href]="file.url">{{file.name}}</a>
+          </li>
+        </ul>
+
       </ng-container>
 
       <ng-container footer>
@@ -51,9 +57,11 @@ export class NoteComponent implements AfterViewInit {
   @ViewChild('dataContainer') dataContainer: any;
 
   data;
+  files;
 
   constructor(private activatedRoute: ActivatedRoute) {
     this.data = (this.activatedRoute.data as any).getValue()['data'];
+    this.files = (this.activatedRoute.data as any).getValue()['files'];
   }
 
   ngAfterViewInit() {

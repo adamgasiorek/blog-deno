@@ -17,7 +17,9 @@ import { PrivComponent } from './priv.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { environment } from '../environments/environment';
 import {getAuth, provideAuth} from "@angular/fire/auth";
-
+import localePL from '@angular/common/locales/pl';
+import {registerLocaleData} from "@angular/common";
+registerLocaleData(localePL, 'pl');
 
 @NgModule({
   declarations: [AppComponent, PrivComponent],
