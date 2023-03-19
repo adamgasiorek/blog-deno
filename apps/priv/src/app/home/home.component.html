@@ -1,33 +1,33 @@
-<!--<app-background>-->
+<app-background>
 
-<!--  <div id="wrapper">-->
-<!--    <section class="intro">-->
-<!--      <header>-->
-<!--        <h1>Adam Gąsiorek</h1>-->
-<!--        <p>-->
-<!--          Welcome and enjoy my personal pictures and photos of my family.-->
-<!--        </p>-->
-<!--        <ul class="actions">-->
-<!--          <li><a class="arrow scrolly"><span class="label">Next</span></a></li>-->
-<!--        </ul>-->
-<!--      </header>-->
-<!--      <div class="hero">-->
-<!--        <img src="assets/me.jpeg" />-->
-<!--      </div>-->
-<!--    </section>-->
+  <div id="wrapper">
+    <section class="intro">
+      <header>
+        <h1>Adam Gąsiorek</h1>
+        <p>
+          Welcome and enjoy my personal pictures and photos of my family.
+        </p>
+        <ul class="actions">
+          <li><a class="arrow scrolly"><span class="label">Next</span></a></li>
+        </ul>
+      </header>
+      <div class="hero">
+        <img src="assets/me.jpeg" />
+      </div>
+    </section>
 
-<!--    <section>-->
-<!--      <header>-->
-<!--      </header>-->
-<!--      <div class="content" style="display: flex;">-->
-<!--        <button class="tag" [class.active]="tag === 0" (click)="setTag0()">-->
-<!--          All-->
-<!--        </button>-->
-<!--        <button class="tag" [class.active]="tag === 1" (click)="setTag1()">-->
-<!--          important-->
-<!--        </button>-->
-<!--      </div>-->
-<!--    </section>-->
+    <section>
+      <header>
+      </header>
+      <div class="content" style="display: flex;">
+        <button class="tag" [class.active]="tag === 0" (click)="setTag0()">
+          All
+        </button>
+        <button class="tag" [class.active]="tag === 1" (click)="setTag1()">
+          important
+        </button>
+      </div>
+    </section>
 
 
       <section *ngFor="let item of (albums | async)">
@@ -48,12 +48,12 @@
         </div>
       </section>
 
-<!--    <div class="copyright" style="color: #d2d2d2;"-->
-<!--    >-->
-<!--      <br/>-->
-<!--      &copy; Adam Gasiorek. All rights reserved.-->
-<!--      <a style="cursor: pointer;" (click)="logout()">Log out</a>.-->
-<!--    </div>-->
+    <div class="copyright" style="color: #d2d2d2;"
+    >
+      <br/>
+      &copy; Adam Gasiorek. All rights reserved.
+      <a style="cursor: pointer;" (click)="logout()">Log out</a>.
+    </div>
 
-<!--  </div>-->
-<!--</app-background>-->
+  </div>
+</app-background>
