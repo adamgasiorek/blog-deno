@@ -50,6 +50,13 @@ const routes: Routes = [
     // data: { authGuardPipe: redirectUnauthorizedToLogin }
   },
   {
+    path: 'money',
+    pathMatch: 'full',
+    loadChildren: () => import('./custom-pages/money/money.module').then((s) => s.MoneyModule),
+    canActivate: [AuthGuard],
+    data: { authGuardPipe: redirectUnauthorizedToLogin }
+  },
+  {
     path: ':id',
     component: NoteComponent,
     resolve: {
