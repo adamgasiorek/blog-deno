@@ -26,7 +26,7 @@
       {
         "pointer": "",
         "tag": "DATE",
-        "data": "2 MAY 2023",
+        "data": "7 MAY 2023",
         "tree": []
       },
       {
@@ -557,6 +557,12 @@
         "tag": "FAMS",
         "data": "@F5@",
         "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F7@",
+        "tree": []
       }
     ]
   },
@@ -568,7 +574,7 @@
       {
         "pointer": "",
         "tag": "NAME",
-        "data": "Anna /Gąsiorek/",
+        "data": "Anna /Maga/",
         "tree": [
           {
             "pointer": "",
@@ -579,7 +585,7 @@
           {
             "pointer": "",
             "tag": "SURN",
-            "data": "Gąsiorek",
+            "data": "Maga",
             "tree": []
           },
           {
@@ -598,9 +604,29 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "2 FEB 1970",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "DEAT",
         "data": "Y",
-        "tree": []
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1 JAN 1980",
+            "tree": []
+          }
+        ]
       },
       {
         "pointer": "",
@@ -649,7 +675,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F7@",
+        "data": "@F8@",
         "tree": []
       },
       {
@@ -699,7 +725,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F8@",
+        "data": "@F9@",
         "tree": []
       },
       {
@@ -1176,7 +1202,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F9@",
+        "data": "@F10@",
         "tree": []
       },
       {
@@ -1226,13 +1252,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F10@",
+        "data": "@F11@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F11@",
+        "data": "@F12@",
         "tree": []
       },
       {
@@ -1282,13 +1308,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F9@",
+        "data": "@F10@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F12@",
+        "data": "@F13@",
         "tree": []
       }
     ]
@@ -1338,7 +1364,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F11@",
+        "data": "@F12@",
         "tree": []
       }
     ]
@@ -1382,7 +1408,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F10@",
+        "data": "@F11@",
         "tree": []
       }
     ]
@@ -1426,19 +1452,19 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F18@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMS",
         "data": "@F19@",
         "tree": []
       },
       {
         "pointer": "",
+        "tag": "FAMS",
+        "data": "@F20@",
+        "tree": []
+      },
+      {
+        "pointer": "",
         "tag": "FAMC",
-        "data": "@F11@",
+        "data": "@F12@",
         "tree": []
       }
     ]
@@ -1482,13 +1508,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F20@",
+        "data": "@F21@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F11@",
+        "data": "@F12@",
         "tree": []
       }
     ]
@@ -1532,7 +1558,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F9@",
+        "data": "@F10@",
         "tree": []
       }
     ]
@@ -1576,7 +1602,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F9@",
+        "data": "@F10@",
         "tree": []
       }
     ]
@@ -1620,7 +1646,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F9@",
+        "data": "@F10@",
         "tree": []
       }
     ]
@@ -1676,7 +1702,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F13@",
+        "data": "@F14@",
         "tree": []
       }
     ]
@@ -1732,7 +1758,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F14@",
+        "data": "@F15@",
         "tree": []
       }
     ]
@@ -1826,7 +1852,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F15@",
+        "data": "@F16@",
         "tree": []
       },
       {
@@ -1882,7 +1908,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F16@",
+        "data": "@F17@",
         "tree": []
       },
       {
@@ -1938,7 +1964,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F14@",
+        "data": "@F15@",
         "tree": []
       }
     ]
@@ -1988,7 +2014,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F14@",
+        "data": "@F15@",
         "tree": []
       }
     ]
@@ -2038,7 +2064,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F13@",
+        "data": "@F14@",
         "tree": []
       }
     ]
@@ -2088,7 +2114,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F13@",
+        "data": "@F14@",
         "tree": []
       }
     ]
@@ -2138,7 +2164,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F13@",
+        "data": "@F14@",
         "tree": []
       }
     ]
@@ -2188,7 +2214,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F13@",
+        "data": "@F14@",
         "tree": []
       }
     ]
@@ -2238,7 +2264,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F13@",
+        "data": "@F14@",
         "tree": []
       }
     ]
@@ -2288,7 +2314,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F13@",
+        "data": "@F14@",
         "tree": []
       }
     ]
@@ -2338,7 +2364,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F13@",
+        "data": "@F14@",
         "tree": []
       }
     ]
@@ -2382,7 +2408,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F15@",
+        "data": "@F16@",
         "tree": []
       }
     ]
@@ -2426,7 +2452,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F15@",
+        "data": "@F16@",
         "tree": []
       }
     ]
@@ -2470,7 +2496,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F16@",
+        "data": "@F17@",
         "tree": []
       }
     ]
@@ -2514,7 +2540,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F16@",
+        "data": "@F17@",
         "tree": []
       }
     ]
@@ -2558,13 +2584,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F17@",
+        "data": "@F18@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F16@",
+        "data": "@F17@",
         "tree": []
       }
     ]
@@ -2608,7 +2634,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F18@",
+        "data": "@F19@",
         "tree": []
       }
     ]
@@ -2652,7 +2678,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F19@",
+        "data": "@F20@",
         "tree": []
       }
     ]
@@ -2696,7 +2722,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F19@",
+        "data": "@F20@",
         "tree": []
       }
     ]
@@ -2740,7 +2766,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F20@",
+        "data": "@F21@",
         "tree": []
       }
     ]
@@ -2784,7 +2810,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F20@",
+        "data": "@F21@",
         "tree": []
       }
     ]
@@ -2828,7 +2854,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F20@",
+        "data": "@F21@",
         "tree": []
       }
     ]
@@ -2872,7 +2898,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F8@",
+        "data": "@F9@",
         "tree": []
       }
     ]
@@ -2916,7 +2942,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F7@",
+        "data": "@F8@",
         "tree": []
       }
     ]
@@ -2960,7 +2986,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F17@",
+        "data": "@F18@",
         "tree": []
       }
     ]
@@ -3004,7 +3030,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F17@",
+        "data": "@F18@",
         "tree": []
       }
     ]
@@ -3042,7 +3068,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F12@",
+        "data": "@F13@",
         "tree": []
       }
     ]
@@ -3080,7 +3106,7 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F12@",
+        "data": "@F13@",
         "tree": []
       }
     ]
@@ -3130,7 +3156,95 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F13@",
+        "data": "@F14@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I64@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Józef /Gąsiorek/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Józef",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Gąsiorek",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Gąsiorek",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F7@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I65@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Anna /Gąsiorek/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Anna",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Gąsiorek",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Gąsiorek",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F7@",
         "tree": []
       }
     ]
@@ -3455,6 +3569,43 @@
       {
         "pointer": "",
         "tag": "HUSB",
+        "data": "@I64@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I65@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I8@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_CURRENT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_PRIMARY",
+        "data": "Y",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F8@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
         "data": "@I58@",
         "tree": []
       },
@@ -3479,7 +3630,7 @@
     ]
   },
   {
-    "pointer": "@F8@",
+    "pointer": "@F9@",
     "tag": "FAM",
     "data": "",
     "tree": [
@@ -3510,7 +3661,7 @@
     ]
   },
   {
-    "pointer": "@F9@",
+    "pointer": "@F10@",
     "tag": "FAM",
     "data": "",
     "tree": [
@@ -3559,7 +3710,7 @@
     ]
   },
   {
-    "pointer": "@F10@",
+    "pointer": "@F11@",
     "tag": "FAM",
     "data": "",
     "tree": [
@@ -3590,7 +3741,7 @@
     ]
   },
   {
-    "pointer": "@F11@",
+    "pointer": "@F12@",
     "tag": "FAM",
     "data": "",
     "tree": [
@@ -3633,7 +3784,7 @@
     ]
   },
   {
-    "pointer": "@F12@",
+    "pointer": "@F13@",
     "tag": "FAM",
     "data": "",
     "tree": [
@@ -3670,7 +3821,7 @@
     ]
   },
   {
-    "pointer": "@F13@",
+    "pointer": "@F14@",
     "tag": "FAM",
     "data": "",
     "tree": [
@@ -3743,7 +3894,7 @@
     ]
   },
   {
-    "pointer": "@F14@",
+    "pointer": "@F15@",
     "tag": "FAM",
     "data": "",
     "tree": [
@@ -3780,7 +3931,7 @@
     ]
   },
   {
-    "pointer": "@F15@",
+    "pointer": "@F16@",
     "tag": "FAM",
     "data": "",
     "tree": [
@@ -3817,7 +3968,7 @@
     ]
   },
   {
-    "pointer": "@F16@",
+    "pointer": "@F17@",
     "tag": "FAM",
     "data": "",
     "tree": [
@@ -3860,7 +4011,7 @@
     ]
   },
   {
-    "pointer": "@F17@",
+    "pointer": "@F18@",
     "tag": "FAM",
     "data": "",
     "tree": [
@@ -3897,7 +4048,7 @@
     ]
   },
   {
-    "pointer": "@F18@",
+    "pointer": "@F19@",
     "tag": "FAM",
     "data": "",
     "tree": [
@@ -3916,7 +4067,7 @@
     ]
   },
   {
-    "pointer": "@F19@",
+    "pointer": "@F20@",
     "tag": "FAM",
     "data": "",
     "tree": [
@@ -3953,7 +4104,7 @@
     ]
   },
   {
-    "pointer": "@F20@",
+    "pointer": "@F21@",
     "tag": "FAM",
     "data": "",
     "tree": [

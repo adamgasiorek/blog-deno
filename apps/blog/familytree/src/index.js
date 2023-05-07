@@ -33,7 +33,6 @@ function render(chart, indiInfo) {
   const dx = parent.clientWidth / 2 - info.origin[0];
   const dy = parent.clientHeight / 2 - info.origin[1];
   const svgTransition = svg.transition().delay(200).duration(500);
-  console.log(initialRender);
   const transition = initialRender ? svg : svgTransition;
   transition
     .attr(
