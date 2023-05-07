@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 16.17.1
       - name: npm dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
       - run: npm run build:priv
       - name: Deploy hosting
         uses: w9jds/firebase-action@master

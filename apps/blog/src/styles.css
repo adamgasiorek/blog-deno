@@ -37,7 +37,7 @@ html[data-theme="dark"] .isLight {
 }
 
 html[data-theme="dark"] svg:not(.map):not(.bft-dark) path {
-  fill: white;
+  stroke: white;
 }
 
 html[data-theme="dark"] .mobileSection {
