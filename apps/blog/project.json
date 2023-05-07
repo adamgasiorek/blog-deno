@@ -45,6 +45,12 @@
       },
       "defaultConfiguration": "production"
     },
+    "generate:family": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "./apps/blog/familytree/build.sh ./apps/blog/familytree/mydata.ged"
+      }
+    },
     "serve": {
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {

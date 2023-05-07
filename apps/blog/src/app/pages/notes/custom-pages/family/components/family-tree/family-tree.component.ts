@@ -33,34 +33,8 @@ export class FamilyTreeComponent implements AfterViewInit{
         return;
       }
 
-      this.lazyLoadService.loadScript('/assets/family/familytree.js').subscribe(_ => {
-        const tree = document.getElementById('tree');
-        if (tree) {
-          var family = new FamilyTree(tree, {
-            roots: ['jozefgasiorek'],
-            editForm: {
-              readOnly: true,
-              generateElementsFromFields: false,
-              elements: [
-                { type: 'textbox', label: 'Full Name', binding: 'name'}
-              ]
-            },
-            enableSearch: false,
-            mode: getColorPreference(),
-            nodeMouseDbClick: FamilyTree.action.details,
-            scaleInitial: FamilyTree.match.boundary,
-            nodeMouseClick: FamilyTree.action.expandCollapse,
-            nodeBinding: {
-              field_0: "name",
-              img_0: "img"
-            },
-          });
 
-          family.load(this.data)
-            .on('init', () => {
-              family.center('adamgasiorek');
-            });
-        }
+      this.lazyLoadService.loadScript('/assets/family/main.js').subscribe(_ => {
       });
     }
 
