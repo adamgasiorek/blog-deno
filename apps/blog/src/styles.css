@@ -165,3 +165,6 @@ html[data-theme="dark"] .mobileSection {
   }
 }
 
+.detailed .id {
+  display: none!important;
+}

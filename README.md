@@ -19,3 +19,9 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+generate family
+
+remove
+1 FAMS @F5@
+1 FAMS @F6@
