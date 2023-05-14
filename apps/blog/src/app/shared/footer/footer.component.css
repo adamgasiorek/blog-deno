@@ -16,7 +16,8 @@
 }
 @media only screen and (max-width: 1024px) {
   :host section {
-    width: 300px;
+    /*width: 300px;*/
+    padding: 32px;
   }
   :host section h1 {
     display: none;

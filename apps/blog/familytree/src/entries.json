@@ -20,13 +20,13 @@
       {
         "pointer": "",
         "tag": "FILE",
-        "data": "My Family",
+        "data": "Family 3",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "DATE",
-        "data": "8 MAY 2023",
+        "data": "14 MAY 2023",
         "tree": []
       },
       {
@@ -239,6 +239,19 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "2 DEC 1996",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "FAMS",
         "data": "@F4@",
         "tree": []
@@ -253,6 +266,69 @@
   },
   {
     "pointer": "@I4@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Joanna /Dziadosz/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Joanna",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Dziadosz",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Dziadosz",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "14 FEB 1996",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F4@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F5@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I5@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -289,6 +365,32 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "17 JUL 1933",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "29 MAY 2020",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "FAMS",
         "data": "@F2@",
         "tree": []
@@ -296,13 +398,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F7@",
+        "data": "@F6@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I5@",
+    "pointer": "@I6@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -345,7 +447,7 @@
           {
             "pointer": "",
             "tag": "DATE",
-            "data": "1932",
+            "data": "17 MAR 1932",
             "tree": []
           }
         ]
@@ -358,7 +460,7 @@
           {
             "pointer": "",
             "tag": "DATE",
-            "data": "1988",
+            "data": "3 DEC 1988",
             "tree": []
           }
         ]
@@ -372,13 +474,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F8@",
+        "data": "@F7@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I6@",
+    "pointer": "@I7@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -421,7 +523,7 @@
           {
             "pointer": "",
             "tag": "DATE",
-            "data": "1962",
+            "data": "1968",
             "tree": []
           }
         ]
@@ -429,13 +531,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F8@",
+        "data": "@F7@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I7@",
+    "pointer": "@I8@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -478,7 +580,7 @@
           {
             "pointer": "",
             "tag": "DATE",
-            "data": "1902",
+            "data": "1903",
             "tree": []
           }
         ]
@@ -499,13 +601,19 @@
       {
         "pointer": "",
         "tag": "FAMS",
+        "data": "@F7@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
         "data": "@F8@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I8@",
+    "pointer": "@I9@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -542,14 +650,34 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "8 DEC 1881",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "DEAT",
         "data": "Y",
-        "tree": []
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "31 AUG 1949",
+            "tree": []
+          }
+        ]
       },
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F7@",
+        "data": "@F6@",
         "tree": []
       },
       {
@@ -561,7 +689,7 @@
     ]
   },
   {
-    "pointer": "@I9@",
+    "pointer": "@I10@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -598,14 +726,34 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "6 JUN 1891",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "DEAT",
         "data": "Y",
-        "tree": []
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "4 MAY 1960",
+            "tree": []
+          }
+        ]
       },
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F7@",
+        "data": "@F6@",
         "tree": []
       },
       {
@@ -617,7 +765,7 @@
     ]
   },
   {
-    "pointer": "@I10@",
+    "pointer": "@I11@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -654,6 +802,19 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "5 FEB 1994",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "FAMS",
         "data": "@F11@",
         "tree": []
@@ -667,7 +828,64 @@
     ]
   },
   {
-    "pointer": "@I11@",
+    "pointer": "@I12@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Mateusz /Polak/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Mateusz",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Polak",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Polak",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "18 SEP 1994",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F11@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I13@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -704,6 +922,19 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "20 FEB 1995",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "FAMS",
         "data": "@F12@",
         "tree": []
@@ -717,7 +948,64 @@
     ]
   },
   {
-    "pointer": "@I12@",
+    "pointer": "@I14@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Mateusz /Bil/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Mateusz",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Bil",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Bil",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "15 JUN 1991",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F12@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I15@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -748,14 +1036,20 @@
       },
       {
         "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
         "tag": "FAMC",
-        "data": "@F7@",
+        "data": "@F6@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I13@",
+    "pointer": "@I16@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -786,6 +1080,12 @@
       },
       {
         "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
         "tag": "DEAT",
         "data": "Y",
         "tree": []
@@ -793,13 +1093,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F7@",
+        "data": "@F6@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I14@",
+    "pointer": "@I17@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -843,13 +1143,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F7@",
+        "data": "@F6@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I15@",
+    "pointer": "@I18@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -880,6 +1180,12 @@
       },
       {
         "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
         "tag": "DEAT",
         "data": "Y",
         "tree": []
@@ -887,13 +1193,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F7@",
+        "data": "@F6@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I16@",
+    "pointer": "@I19@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -937,13 +1243,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F8@",
+        "data": "@F7@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I17@",
+    "pointer": "@I20@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -987,13 +1293,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F8@",
+        "data": "@F7@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I18@",
+    "pointer": "@I21@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1037,45 +1343,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F8@",
+        "data": "@F7@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I19@",
-    "tag": "INDI",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "NAME",
-        "data": "/Wierońska/",
-        "tree": [
-          {
-            "pointer": "",
-            "tag": "SURN",
-            "data": "Wierońska",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "_MARNM",
-            "data": "Wierońska",
-            "tree": []
-          }
-        ]
-      },
-      {
-        "pointer": "",
-        "tag": "FAMC",
-        "data": "@F8@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@I20@",
+    "pointer": "@I22@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1119,32 +1393,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F7@",
+        "data": "@F6@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I21@",
-    "tag": "INDI",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "NAME",
-        "data": "",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMC",
-        "data": "@F7@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@I22@",
+    "pointer": "@I23@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1183,62 +1438,6 @@
         "pointer": "",
         "tag": "FAMS",
         "data": "@F13@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMC",
-        "data": "@F2@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@I23@",
-    "tag": "INDI",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "NAME",
-        "data": "Bogumiła /Gąsiorek/",
-        "tree": [
-          {
-            "pointer": "",
-            "tag": "GIVN",
-            "data": "Bogumiła",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "SURN",
-            "data": "Gąsiorek",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "_MARNM",
-            "data": "Kubica",
-            "tree": []
-          }
-        ]
-      },
-      {
-        "pointer": "",
-        "tag": "SEX",
-        "data": "F",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMS",
-        "data": "@F14@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMS",
-        "data": "@F15@",
         "tree": []
       },
       {
@@ -1294,7 +1493,7 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F16@",
+        "data": "@F14@",
         "tree": []
       }
     ]
@@ -1307,24 +1506,24 @@
       {
         "pointer": "",
         "tag": "NAME",
-        "data": "Józef /Faber/",
+        "data": "Bogumiła /Gąsiorek/",
         "tree": [
           {
             "pointer": "",
             "tag": "GIVN",
-            "data": "Józef",
+            "data": "Bogumiła",
             "tree": []
           },
           {
             "pointer": "",
             "tag": "SURN",
-            "data": "Faber",
+            "data": "Gąsiorek",
             "tree": []
           },
           {
             "pointer": "",
             "tag": "_MARNM",
-            "data": "Faber",
+            "data": "Kubica",
             "tree": []
           }
         ]
@@ -1332,19 +1531,25 @@
       {
         "pointer": "",
         "tag": "SEX",
-        "data": "M",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "DEAT",
-        "data": "Y",
+        "data": "F",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "FAMS",
         "data": "@F15@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F16@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F2@",
         "tree": []
       }
     ]
@@ -1388,13 +1593,83 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F14@",
+        "data": "@F15@",
         "tree": []
       }
     ]
   },
   {
     "pointer": "@I27@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Józef /Faber/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Józef",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Faber",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Faber",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "9 FEB 1959",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "14 SEP 2015",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F16@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I28@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1432,25 +1707,25 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F23@",
+        "data": "@F17@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F24@",
+        "data": "@F26@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F15@",
+        "data": "@F16@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I28@",
+    "pointer": "@I29@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1488,19 +1763,19 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F25@",
+        "data": "@F18@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F15@",
+        "data": "@F16@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I29@",
+    "pointer": "@I30@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1544,7 +1819,7 @@
     ]
   },
   {
-    "pointer": "@I30@",
+    "pointer": "@I31@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1588,7 +1863,7 @@
     ]
   },
   {
-    "pointer": "@I31@",
+    "pointer": "@I32@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1632,7 +1907,7 @@
     ]
   },
   {
-    "pointer": "@I32@",
+    "pointer": "@I33@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1669,9 +1944,29 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "17 DEC 1913",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "DEAT",
         "data": "Y",
-        "tree": []
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "3 AUG 2007",
+            "tree": []
+          }
+        ]
       },
       {
         "pointer": "",
@@ -1682,13 +1977,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F17@",
+        "data": "@F19@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I33@",
+    "pointer": "@I34@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1725,9 +2020,29 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "17 JUL 1921",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "DEAT",
         "data": "Y",
-        "tree": []
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "23 MAR 1994",
+            "tree": []
+          }
+        ]
       },
       {
         "pointer": "",
@@ -1738,13 +2053,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F18@",
+        "data": "@F20@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I34@",
+    "pointer": "@I35@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1781,9 +2096,29 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1 JUL 1956",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "DEAT",
         "data": "Y",
-        "tree": []
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "23 MAR 1977",
+            "tree": []
+          }
+        ]
       },
       {
         "pointer": "",
@@ -1794,7 +2129,7 @@
     ]
   },
   {
-    "pointer": "@I35@",
+    "pointer": "@I36@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1831,8 +2166,21 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "5 FEB 1955",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "FAMS",
-        "data": "@F20@",
+        "data": "@F21@",
         "tree": []
       },
       {
@@ -1844,7 +2192,7 @@
     ]
   },
   {
-    "pointer": "@I36@",
+    "pointer": "@I37@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1881,14 +2229,34 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "8 MAY 1950",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "DEAT",
         "data": "Y",
-        "tree": []
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "22 NOV 2016",
+            "tree": []
+          }
+        ]
       },
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F21@",
+        "data": "@F22@",
         "tree": []
       },
       {
@@ -1900,7 +2268,7 @@
     ]
   },
   {
-    "pointer": "@I37@",
+    "pointer": "@I38@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1944,13 +2312,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F18@",
+        "data": "@F20@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I38@",
+    "pointer": "@I39@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -1994,19 +2362,19 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F18@",
+        "data": "@F20@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F19@",
+        "data": "@F23@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I39@",
+    "pointer": "@I40@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2043,6 +2411,19 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "12 FEB 1880",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "DEAT",
         "data": "Y",
         "tree": []
@@ -2050,13 +2431,19 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F17@",
+        "data": "@F19@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F24@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I40@",
+    "pointer": "@I41@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2093,20 +2480,40 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "15 JAN 1884",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "DEAT",
         "data": "Y",
-        "tree": []
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "28 DEC 1968",
+            "tree": []
+          }
+        ]
       },
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F17@",
+        "data": "@F19@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I41@",
+    "pointer": "@I42@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2150,13 +2557,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F17@",
+        "data": "@F19@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I42@",
+    "pointer": "@I43@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2200,13 +2607,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F17@",
+        "data": "@F19@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I43@",
+    "pointer": "@I44@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2250,13 +2657,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F17@",
+        "data": "@F19@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I44@",
+    "pointer": "@I45@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2300,13 +2707,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F17@",
+        "data": "@F19@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I45@",
+    "pointer": "@I46@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2350,13 +2757,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F17@",
+        "data": "@F19@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I46@",
+    "pointer": "@I47@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2394,13 +2801,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F20@",
+        "data": "@F21@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I47@",
+    "pointer": "@I48@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2438,13 +2845,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F20@",
+        "data": "@F21@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I48@",
+    "pointer": "@I49@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2482,13 +2889,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F21@",
+        "data": "@F22@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I49@",
+    "pointer": "@I50@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2526,13 +2933,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F21@",
+        "data": "@F22@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I50@",
+    "pointer": "@I51@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2570,371 +2977,19 @@
       {
         "pointer": "",
         "tag": "FAMS",
+        "data": "@F25@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
         "data": "@F22@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMC",
-        "data": "@F21@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@I51@",
-    "tag": "INDI",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "NAME",
-        "data": "Julia /Faber/",
-        "tree": [
-          {
-            "pointer": "",
-            "tag": "GIVN",
-            "data": "Julia",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "SURN",
-            "data": "Faber",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "_MARNM",
-            "data": "Faber",
-            "tree": []
-          }
-        ]
-      },
-      {
-        "pointer": "",
-        "tag": "SEX",
-        "data": "F",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMC",
-        "data": "@F23@",
         "tree": []
       }
     ]
   },
   {
     "pointer": "@I52@",
-    "tag": "INDI",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "NAME",
-        "data": "Tadeusz /Faber/",
-        "tree": [
-          {
-            "pointer": "",
-            "tag": "GIVN",
-            "data": "Tadeusz",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "SURN",
-            "data": "Faber",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "_MARNM",
-            "data": "Faber",
-            "tree": []
-          }
-        ]
-      },
-      {
-        "pointer": "",
-        "tag": "SEX",
-        "data": "M",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMC",
-        "data": "@F24@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@I53@",
-    "tag": "INDI",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "NAME",
-        "data": "Marcelina /Cibor/",
-        "tree": [
-          {
-            "pointer": "",
-            "tag": "GIVN",
-            "data": "Marcelina",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "SURN",
-            "data": "Cibor",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "_MARNM",
-            "data": "Faber",
-            "tree": []
-          }
-        ]
-      },
-      {
-        "pointer": "",
-        "tag": "SEX",
-        "data": "F",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMS",
-        "data": "@F24@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@I54@",
-    "tag": "INDI",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "NAME",
-        "data": "Filip /Szymalski/",
-        "tree": [
-          {
-            "pointer": "",
-            "tag": "GIVN",
-            "data": "Filip",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "SURN",
-            "data": "Szymalski",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "_MARNM",
-            "data": "Szymalski",
-            "tree": []
-          }
-        ]
-      },
-      {
-        "pointer": "",
-        "tag": "SEX",
-        "data": "M",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMC",
-        "data": "@F25@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@I55@",
-    "tag": "INDI",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "NAME",
-        "data": "Krzysztof /Szymalski/",
-        "tree": [
-          {
-            "pointer": "",
-            "tag": "GIVN",
-            "data": "Krzysztof",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "SURN",
-            "data": "Szymalski",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "_MARNM",
-            "data": "Szymalski",
-            "tree": []
-          }
-        ]
-      },
-      {
-        "pointer": "",
-        "tag": "SEX",
-        "data": "M",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMS",
-        "data": "@F25@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@I56@",
-    "tag": "INDI",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "NAME",
-        "data": "Józef /Szymalski/",
-        "tree": [
-          {
-            "pointer": "",
-            "tag": "GIVN",
-            "data": "Józef",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "SURN",
-            "data": "Szymalski",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "_MARNM",
-            "data": "Szymalski",
-            "tree": []
-          }
-        ]
-      },
-      {
-        "pointer": "",
-        "tag": "SEX",
-        "data": "M",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMC",
-        "data": "@F25@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@I57@",
-    "tag": "INDI",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "NAME",
-        "data": "Mateusz /Bil/",
-        "tree": [
-          {
-            "pointer": "",
-            "tag": "GIVN",
-            "data": "Mateusz",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "SURN",
-            "data": "Bil",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "_MARNM",
-            "data": "Bil",
-            "tree": []
-          }
-        ]
-      },
-      {
-        "pointer": "",
-        "tag": "SEX",
-        "data": "M",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMS",
-        "data": "@F12@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@I58@",
-    "tag": "INDI",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "NAME",
-        "data": "Mateusz /Polak/",
-        "tree": [
-          {
-            "pointer": "",
-            "tag": "GIVN",
-            "data": "Mateusz",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "SURN",
-            "data": "Polak",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "_MARNM",
-            "data": "Polak",
-            "tree": []
-          }
-        ]
-      },
-      {
-        "pointer": "",
-        "tag": "SEX",
-        "data": "M",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMS",
-        "data": "@F11@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@I59@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -2972,13 +3027,277 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F22@",
+        "data": "@F25@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I60@",
+    "pointer": "@I53@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Julia /Faber/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Julia",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Faber",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Faber",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F26@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I54@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Tadeusz /Faber/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Tadeusz",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Faber",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Faber",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F17@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I55@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Marcelina /Cibor/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Marcelina",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Cibor",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Faber",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F17@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I56@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Filip /Szymalski/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Filip",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Szymalski",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Szymalski",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F18@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I57@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Krzysztof /Szymalski/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Krzysztof",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Szymalski",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Szymalski",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F18@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I58@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Józef /Szymalski/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Józef",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Szymalski",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Szymalski",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F18@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I59@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -3016,13 +3335,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F22@",
+        "data": "@F25@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I61@",
+    "pointer": "@I60@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -3054,13 +3373,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F16@",
+        "data": "@F14@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I62@",
+    "pointer": "@I61@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -3092,13 +3411,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F16@",
+        "data": "@F14@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I63@",
+    "pointer": "@I62@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -3142,13 +3461,13 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F17@",
+        "data": "@F19@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I64@",
+    "pointer": "@I63@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -3185,6 +3504,32 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "8 JUN 1851",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "6 AUG 1933",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "FAMS",
         "data": "@F9@",
         "tree": []
@@ -3192,7 +3537,7 @@
     ]
   },
   {
-    "pointer": "@I65@",
+    "pointer": "@I64@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -3229,6 +3574,32 @@
       },
       {
         "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "7 OCT 1856",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "8 OCT 1907",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
         "tag": "FAMS",
         "data": "@F9@",
         "tree": []
@@ -3236,7 +3607,7 @@
     ]
   },
   {
-    "pointer": "@I66@",
+    "pointer": "@I65@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -3273,6 +3644,12 @@
       },
       {
         "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
         "tag": "FAMS",
         "data": "@F10@",
         "tree": []
@@ -3280,7 +3657,7 @@
     ]
   },
   {
-    "pointer": "@I67@",
+    "pointer": "@I66@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -3317,6 +3694,12 @@
       },
       {
         "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
         "tag": "FAMS",
         "data": "@F10@",
         "tree": []
@@ -3324,7 +3707,7 @@
     ]
   },
   {
-    "pointer": "@I68@",
+    "pointer": "@I67@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -3368,63 +3751,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F19@",
+        "data": "@F23@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I69@",
-    "tag": "INDI",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "NAME",
-        "data": "Joanna /Dziadosz/",
-        "tree": [
-          {
-            "pointer": "",
-            "tag": "GIVN",
-            "data": "Joanna",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "SURN",
-            "data": "Dziadosz",
-            "tree": []
-          },
-          {
-            "pointer": "",
-            "tag": "_MARNM",
-            "data": "Dziadosz",
-            "tree": []
-          }
-        ]
-      },
-      {
-        "pointer": "",
-        "tag": "SEX",
-        "data": "F",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMS",
-        "data": "@F4@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "FAMC",
-        "data": "@F26@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@I70@",
+    "pointer": "@I68@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -3462,13 +3795,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F26@",
+        "data": "@F5@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I71@",
+    "pointer": "@I69@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -3506,13 +3839,13 @@
       {
         "pointer": "",
         "tag": "FAMS",
-        "data": "@F26@",
+        "data": "@F5@",
         "tree": []
       }
     ]
   },
   {
-    "pointer": "@I72@",
+    "pointer": "@I70@",
     "tag": "INDI",
     "data": "",
     "tree": [
@@ -3550,7 +3883,1309 @@
       {
         "pointer": "",
         "tag": "FAMC",
-        "data": "@F26@",
+        "data": "@F5@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I71@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Piotr /Polak/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Piotr",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Polak",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Polak",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "23 JUN 2021",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F11@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I72@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Aleksandra /Bil/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Aleksandra",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Bil",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Bil",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "18 JAN 2021",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F12@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I73@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Jan /Gawęda/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Jan",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Gawęda",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Gawęda",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1846",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F24@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I74@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Marianna /Ruła/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Marianna",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Ruła",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Gawęda",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "24 NOV 1837",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F24@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F27@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I75@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Szymon /Ruła/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Szymon",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Ruła",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Ruła",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1798",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1848",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F27@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F28@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I76@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Apolonia /Bandoła/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Apolonia",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Bandoła",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Ruła",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1805",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1845",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F27@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I77@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Roman /Ruła/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Roman",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Ruła",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Ruła",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1757",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1826",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F28@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F29@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I78@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Łucja /Żak/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Łucja",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Żak",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Ruła",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1756",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1826",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F28@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I79@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Mateusz /Ruła/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Mateusz",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Ruła",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Ruła",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1716",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1787",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F29@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F30@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I80@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Zofia /Balon/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Zofia",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Balon",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Ruła",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1727",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1785",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F29@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I81@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Wit /Ruła/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Wit",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Ruła",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Ruła",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1744",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F30@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I82@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Zofia /Ruła/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Zofia",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Ruła",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Ruła",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F30@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I83@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Jan /Tora/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Jan",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Tora",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Tora",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1856",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F8@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F31@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I84@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Anna /Tyrcha/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Anna",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Tyrcha",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Tora",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F8@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I85@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Sebastian /Tora/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Sebastian",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Tora",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Tora",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1810",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F31@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F32@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I86@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Anna /Zemanek/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Anna",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Zemanek",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Tora",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1815",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F31@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I87@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Andrzej /Tora/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Andrzej",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Tora",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Tora",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1781",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1850",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F32@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F33@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I88@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Marzenna /Wójcik/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Marzenna",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Wójcik",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Tora",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1790",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1855",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F32@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I89@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Andrzej /Tora/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Andrzej",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Tora",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Tora",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1748",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "Y",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1828",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F33@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I90@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Jakub /Faber/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Jakub",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Faber",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "_MARNM",
+            "data": "Faber",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F17@",
         "tree": []
       }
     ]
@@ -3581,13 +5216,13 @@
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I10@",
+        "data": "@I11@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I11@",
+        "data": "@I13@",
         "tree": []
       },
       {
@@ -3612,13 +5247,13 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I4@",
+        "data": "@I5@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I5@",
+        "data": "@I6@",
         "tree": []
       },
       {
@@ -3630,13 +5265,13 @@
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I22@",
+        "data": "@I23@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I23@",
+        "data": "@I25@",
         "tree": []
       },
       {
@@ -3661,25 +5296,19 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I32@",
+        "data": "@I33@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I33@",
+        "data": "@I34@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
         "data": "@I2@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I34@",
         "tree": []
       },
       {
@@ -3692,6 +5321,12 @@
         "pointer": "",
         "tag": "CHIL",
         "data": "@I36@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I37@",
         "tree": []
       },
       {
@@ -3722,7 +5357,7 @@
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I69@",
+        "data": "@I4@",
         "tree": []
       },
       {
@@ -3747,19 +5382,37 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I3@",
+        "data": "@I68@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I69@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I4@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I70@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "_CURRENT",
-        "data": "N",
+        "data": "Y",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "_PRIMARY",
-        "data": "N",
+        "data": "Y",
         "tree": []
       }
     ]
@@ -3772,19 +5425,61 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I3@",
+        "data": "@I9@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I10@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I5@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I15@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I16@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I17@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I18@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I22@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "_CURRENT",
-        "data": "N",
+        "data": "Y",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "_PRIMARY",
-        "data": "N",
+        "data": "Y",
         "tree": []
       }
     ]
@@ -3797,43 +5492,25 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I8@",
+        "data": "@I7@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I9@",
+        "data": "@I8@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I4@",
+        "data": "@I6@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I12@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I13@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I14@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I15@",
+        "data": "@I19@",
         "tree": []
       },
       {
@@ -3870,43 +5547,19 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I6@",
+        "data": "@I83@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I7@",
+        "data": "@I84@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I5@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I16@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I17@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I18@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I19@",
+        "data": "@I8@",
         "tree": []
       },
       {
@@ -3931,19 +5584,19 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I64@",
+        "data": "@I63@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I65@",
+        "data": "@I64@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I8@",
+        "data": "@I9@",
         "tree": []
       },
       {
@@ -3968,19 +5621,19 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I66@",
+        "data": "@I65@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I67@",
+        "data": "@I66@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I9@",
+        "data": "@I10@",
         "tree": []
       },
       {
@@ -4005,13 +5658,19 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I58@",
+        "data": "@I12@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I10@",
+        "data": "@I11@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I71@",
         "tree": []
       },
       {
@@ -4036,13 +5695,19 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I57@",
+        "data": "@I14@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I11@",
+        "data": "@I13@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I72@",
         "tree": []
       },
       {
@@ -4067,19 +5732,13 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I22@",
+        "data": "@I23@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
         "data": "@I24@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I29@",
         "tree": []
       },
       {
@@ -4092,6 +5751,12 @@
         "pointer": "",
         "tag": "CHIL",
         "data": "@I31@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I32@",
         "tree": []
       },
       {
@@ -4116,13 +5781,19 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I26@",
+        "data": "@I60@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I23@",
+        "data": "@I61@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I24@",
         "tree": []
       },
       {
@@ -4147,37 +5818,25 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I25@",
+        "data": "@I26@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I23@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I27@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I28@",
+        "data": "@I25@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "_CURRENT",
-        "data": "N",
+        "data": "Y",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "_PRIMARY",
-        "data": "N",
+        "data": "Y",
         "tree": []
       }
     ]
@@ -4190,31 +5849,37 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I61@",
+        "data": "@I27@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I62@",
+        "data": "@I25@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I24@",
+        "data": "@I28@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I29@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "_CURRENT",
-        "data": "Y",
+        "data": "N",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "_PRIMARY",
-        "data": "Y",
+        "data": "N",
         "tree": []
       }
     ]
@@ -4227,25 +5892,105 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I39@",
+        "data": "@I28@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
+        "data": "@I55@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I54@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I90@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_CURRENT",
+        "data": "N",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_PRIMARY",
+        "data": "N",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F18@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I57@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I29@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I56@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I58@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_CURRENT",
+        "data": "N",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_PRIMARY",
+        "data": "N",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F19@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
         "data": "@I40@",
         "tree": []
       },
       {
         "pointer": "",
-        "tag": "CHIL",
-        "data": "@I32@",
+        "tag": "WIFE",
+        "data": "@I41@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I41@",
+        "data": "@I33@",
         "tree": []
       },
       {
@@ -4275,44 +6020,13 @@
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I63@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "_CURRENT",
-        "data": "Y",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "_PRIMARY",
-        "data": "Y",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@F18@",
-    "tag": "FAM",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "HUSB",
-        "data": "@I37@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "WIFE",
-        "data": "@I38@",
+        "data": "@I46@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I33@",
+        "data": "@I62@",
         "tree": []
       },
       {
@@ -4325,37 +6039,6 @@
         "pointer": "",
         "tag": "_PRIMARY",
         "data": "Y",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@F19@",
-    "tag": "FAM",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "WIFE",
-        "data": "@I68@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I38@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "_CURRENT",
-        "data": "N",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "_PRIMARY",
-        "data": "N",
         "tree": []
       }
     ]
@@ -4368,31 +6051,31 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I35@",
+        "data": "@I38@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I47@",
+        "data": "@I39@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I46@",
+        "data": "@I34@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "_CURRENT",
-        "data": "N",
+        "data": "Y",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "_PRIMARY",
-        "data": "N",
+        "data": "Y",
         "tree": []
       }
     ]
@@ -4411,19 +6094,13 @@
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I49@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
         "data": "@I48@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I50@",
+        "data": "@I47@",
         "tree": []
       },
       {
@@ -4448,7 +6125,7 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I59@",
+        "data": "@I37@",
         "tree": []
       },
       {
@@ -4460,19 +6137,25 @@
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I60@",
+        "data": "@I49@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I51@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "_CURRENT",
-        "data": "Y",
+        "data": "N",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "_PRIMARY",
-        "data": "Y",
+        "data": "N",
         "tree": []
       }
     ]
@@ -4484,94 +6167,14 @@
     "tree": [
       {
         "pointer": "",
-        "tag": "HUSB",
-        "data": "@I27@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I51@",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@F24@",
-    "tag": "FAM",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "HUSB",
-        "data": "@I27@",
-        "tree": []
-      },
-      {
-        "pointer": "",
         "tag": "WIFE",
-        "data": "@I53@",
+        "data": "@I67@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I52@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "_CURRENT",
-        "data": "N",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "_PRIMARY",
-        "data": "N",
-        "tree": []
-      }
-    ]
-  },
-  {
-    "pointer": "@F25@",
-    "tag": "FAM",
-    "data": "",
-    "tree": [
-      {
-        "pointer": "",
-        "tag": "HUSB",
-        "data": "@I55@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "WIFE",
-        "data": "@I28@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I54@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I56@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "_CURRENT",
-        "data": "N",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "_PRIMARY",
-        "data": "N",
+        "data": "@I39@",
         "tree": []
       }
     ]
@@ -4584,25 +6187,38 @@
       {
         "pointer": "",
         "tag": "HUSB",
-        "data": "@I70@",
+        "data": "@I28@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I53@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F24@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I73@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "WIFE",
-        "data": "@I71@",
+        "data": "@I74@",
         "tree": []
       },
       {
         "pointer": "",
         "tag": "CHIL",
-        "data": "@I69@",
-        "tree": []
-      },
-      {
-        "pointer": "",
-        "tag": "CHIL",
-        "data": "@I72@",
+        "data": "@I40@",
         "tree": []
       },
       {
@@ -4615,6 +6231,296 @@
         "pointer": "",
         "tag": "_PRIMARY",
         "data": "Y",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F25@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I52@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I51@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I59@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_CURRENT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_PRIMARY",
+        "data": "Y",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F27@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I75@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I76@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I74@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_CURRENT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_PRIMARY",
+        "data": "Y",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F28@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I77@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I78@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I75@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_CURRENT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_PRIMARY",
+        "data": "Y",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F29@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I79@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I80@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I77@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_CURRENT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_PRIMARY",
+        "data": "Y",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F30@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I81@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I82@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I79@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_CURRENT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_PRIMARY",
+        "data": "Y",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F31@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I85@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I86@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I83@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_CURRENT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_PRIMARY",
+        "data": "Y",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F32@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I87@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I88@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I85@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_CURRENT",
+        "data": "Y",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_PRIMARY",
+        "data": "Y",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F33@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I89@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I87@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_CURRENT",
+        "data": "N",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "_PRIMARY",
+        "data": "N",
         "tree": []
       }
     ]

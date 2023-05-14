@@ -7,7 +7,8 @@ main:not(.fullSize) {
 }
 @media only screen and (max-width: 1024px) {
   main:not(.fullSize) {
-    padding: 0px 0 40px 0;
+    padding: 0px 32px 40px 32px;
+    overflow: hidden;
   }
 }
 main section {
@@ -15,7 +16,8 @@ main section {
 }
 @media only screen and (max-width: 1024px) {
   main section {
-    width: 300px;
+    /*width: 300px;*/
+    /*padding: 32px;*/
   }
 }
 

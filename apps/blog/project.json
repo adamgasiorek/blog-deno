@@ -58,6 +58,7 @@
           "browserTarget": "blog:build:production"
         },
         "development": {
+          "disableHostCheck": true,
           "browserTarget": "blog:build:development"
         }
       },
