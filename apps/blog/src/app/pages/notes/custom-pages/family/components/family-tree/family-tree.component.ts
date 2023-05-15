@@ -6,7 +6,14 @@ import {LazyLoadScriptService} from "./lazy-load-script.service";
 
 @Component({
   selector: 'app-family-tree',
-  templateUrl: './family-tree.component.html'
+  templateUrl: './family-tree.component.html',
+  styles: [`
+    @media only screen and (max-width: 1024px) {
+      #chart {
+        transform: scale(0.5);
+      }
+    }
+  `]
 })
 export class FamilyTreeComponent implements AfterViewInit{
 
