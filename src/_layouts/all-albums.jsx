@@ -24,7 +24,7 @@ export default ({ title, content, comp}, filters) => (
        <h3>Africa</h3>
        <section className="covers">
            {content.filter((item) => item.group === 'Africa').map((country, i) => (
-               <comp.cover title={country.name} url={country.url} thumbnail={country.image} key={i}/>
+               <comp.cover title={country.name} url={'countries/'+country.url} thumbnail={country.image} key={i}/>
            ))}
        </section>
 

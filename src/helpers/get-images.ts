@@ -14,7 +14,7 @@ async function getSize(url) {
 }
 
 export default async function getImages(url) {
-    const storageRef = ref(storage, 'albums/'+url);
+    const storageRef = ref(storage, url);
 
     const list = await listAll(storageRef);
     const images = await Promise.all(list.items.map(async (item) => {
