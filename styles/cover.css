@@ -1,0 +1,52 @@
+.container {
+    position: relative;
+    cursor: pointer;
+}
+
+.album-title {
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    backdrop-filter: blur(4px);
+    background: rgba(0,0,0,0.3);
+}
+
+@media only screen and (max-width: 1024px) {
+    h3 {
+        padding: 8px;
+        font-size: 18px;
+    }
+}
+.album-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.covers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    gap: 16px;
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
+    .covers {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 300px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .covers {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 160px;
+    }
+}

@@ -1,0 +1,291 @@
+.images {
+    position: relative;
+}
+.images label.overlay span {
+    position: fixed;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(26, 26, 26, 0.9);
+    z-index: 1;
+    transition: opacity 0.2s ease-out;
+    cursor: zoom-out;
+}
+
+
+video.image-cover-img {
+    margin-top: 0!important;
+    top: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    max-width: calc(100vw - 128px);
+    max-height: calc(100vh - 128px);
+    width: auto;
+    height: auto;
+    transform: translate(0, 10%);
+}
+
+.images label.overlay input:checked ~ span {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.images .images-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.images .images-container .image-label {
+    flex: auto;
+    cursor: zoom-in;
+    position: relative;
+}
+.images .images-container .image-label img,video {
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+    transform-origin: center center;
+}
+
+.image-cover-img {
+    display: none;
+}
+
+.images .images-container .image-label .image-title {
+    display: none;
+}
+
+.images .images-container .image-label input:checked ~ .image img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: calc(100% - 4em);
+    max-height: calc(100% - 10em);
+    opacity: 1;
+    position: fixed;
+    z-index: 1;
+    pointer-events: none;
+    animation: slide-down 0.2s ease-out;
+    box-shadow: 0em 0em 0em 0.03em rgba(0, 0, 0, 0.45), 0em 0em 0.1em 0.03em rgba(0, 0, 0, 0.25), 0em 0em 0.3em 0.03em rgba(0, 0, 0, 0.15), 0em 0em 1.5em 0em rgba(0, 0, 0, 0.25);
+    margin-top: -4em;
+}
+
+.images .images-container .image-label input:checked ~ .image video {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: calc(100% - 4em);
+    max-height: calc(100% - 10em);
+    opacity: 1;
+    position: fixed;
+    z-index: 1;
+    pointer-events: none;
+    animation: slide-down 0.2s ease-out;
+    box-shadow: 0em 0em 0em 0.03em rgba(0, 0, 0, 0.45), 0em 0em 0.1em 0.03em rgba(0, 0, 0, 0.25), 0em 0em 0.3em 0.03em rgba(0, 0, 0, 0.15), 0em 0em 1.5em 0em rgba(0, 0, 0, 0.25);
+    margin-top: -4em;
+}
+
+.image-label input:checked ~ .image .image-img {
+    opacity: 0!important;
+}
+
+
+input[type="radio"] {
+    opacity: 0;
+}
+
+.images-container {
+    display: grid!important;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    gap: 16px;
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
+    .images-container {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 300px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .images-container {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 160px;
+    }
+}
+
+.image-label {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.image-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+
+.short {
+    grid-row: span 1;
+}
+.tall {
+    grid-row: span 2;
+}
+
+.image-cover-img {
+    top: 55%;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 1024px) {
+    .image-cover-img {
+        top: 50%;
+    }
+
+    video.image-cover-img {
+        top: 45%;
+        transform: translate(0, -50%);
+    }
+}
+
+.arrows-container {
+    width: 100vw;
+    position: fixed;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.arrows-wrapper {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    font-size: 100px;
+    z-index: 11;
+    max-width: 1420px;
+}
+
+.images label.overlay input:checked ~ .arrows-wrapper {
+    pointer-events: none;
+    opacity: 0;
+}
+
+#arrow-right, #arrow-left {
+    cursor: pointer;
+    font-size: 80px;
+    background: none;
+    color: #b0b0b0;
+    border: 0;
+    outline: none;
+}
+
+#arrow-right:hover, #arrow-left:hover {
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 1024px) {
+    #arrow-right, #arrow-left {
+        font-size: 40px;
+    }
+}
+
+.video-container::before {
+    content: " XD";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 111;
+    background-color: yellow;
+    height: 10px;
+    width: 100px;
+}
+
+
+.image-img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play {
+    position: absolute;
+    z-index: 1;
+    color: #d9d9d9;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    transform: translate(-40%, -40%);
+    opacity: 0.8;
+}
+
+.image-label input:checked ~ .image .play {
+    opacity: 0.1!important;
+}
+
+.modal:not(.notvisible) {
+    z-index: 11;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modalBackground {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(26, 26, 26, 0.9);
+}
+
+.image-modal {
+    max-height: 90%;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+
+.modal.notvisible .image-modal {
+    display: none;
+}
+
+.modal.notvisible .modalBackground {
+    display: none;
+}
+
+.modal.notvisible .arrows-container {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.image-src {
+    display: none;
+}
