@@ -8,12 +8,11 @@ const storage = getStorage();
 
 
 export default async function getFolders(url) {
-    const storageRef = ref(storage, 'albums');
+    const storageRef = ref(storage, url);
 
     const list = await listAll(storageRef);
     const folders = await Promise.all(list.prefixes.map(async (item) => {
-
-        const storageRefNested = ref(storage, 'albums/'+item.name);
+        const storageRefNested = ref(storage, url + item.name);
         const listNested = await listAll(storageRefNested);
         let main = '';
         const mainItem = listNested.items.filter(item => item.name.includes('main'))[0];
