@@ -17,15 +17,28 @@ export default async function getImages(url) {
     const storageRef = ref(storage, url);
 
     const list = await listAll(storageRef);
-    const images = await Promise.all(list.items.map(async (item) => {
+    const filteredList = list.items.filter( (item) => item.name.includes('thumb-') === false)
+
+    const images = await Promise.all(filteredList
+        .map(async (item) => {
         const meta = await getMetadata(item);
         const isVideo = meta.contentType === "video/mp4" || meta.contentType === "video/quicktime";
         const path = await getDownloadURL(item);
+        const splittedPath = path.split("%2F");
+        let thumbnail = '';
+        if(splittedPath.length === 2) {
+            thumbnail = splittedPath[0] + '%2Fthumb-' + splittedPath[1];
+        } else if(splittedPath.length === 3) {
+            thumbnail = splittedPath[0] + '%2F' + splittedPath[1] + `%2Fthumb-${splittedPath[2]}`;
+        } else if(splittedPath.length === 4) {
+            thumbnail = splittedPath[0] + '%2F' + splittedPath[1] + '%2F' + splittedPath[2] + `%2Fthumb-${splittedPath[3]}`;
+        }
+
         let isTall = false;
         if(!isVideo) {
             isTall = await getSize(path);
         }
-        return {path, isVideo, isTall};
+        return {path, isVideo, isTall, thumbnail};
     }));
 
     return images;

@@ -14,17 +14,17 @@ export default ({ title, content, comp}, filters) => (
        <comp.header />
 
         <h1>{title}</h1>
-       {/*<h3>Europe</h3>*/}
-       {/*<section className="covers">*/}
-       {/*    {content.filter((item) => item.group === 'Europe').map((country, i) => (*/}
-       {/*        <comp.cover title={country.title} url={country.url}  thumbnail={country.thumbnail} key={i}/>*/}
-       {/*    ))}*/}
-       {/*</section>*/}
+       <h3>Europe</h3>
+       <section className="covers">
+           {content.filter((item) => item.group === 'Europe').map((country, i) => (
+               <comp.cover title={country.name} url={'countries/'+country.url}  thumbnail={country.thumbnail} key={i}/>
+           ))}
+       </section>
 
        <h3>Africa</h3>
        <section className="covers">
            {content.filter((item) => item.group === 'Africa').map((country, i) => (
-               <comp.cover title={country.name} url={'countries/'+country.url} thumbnail={country.image} key={i}/>
+               <comp.cover title={country.name} url={'countries/'+country.url} thumbnail={country.thumbnail} key={i}/>
            ))}
        </section>
 

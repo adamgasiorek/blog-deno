@@ -95,7 +95,7 @@ export default function ({images}) {
                                 </div>
                                 :
                                 <img className="image-img" data-img={image.path}
-                                     src={image.path}/>
+                                     src={image.thumbnail}/>
                             }
                         </div>
                     </div>
