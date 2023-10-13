@@ -28,26 +28,27 @@ export default ({ title, content, comp}, filters) => (
            ))}
        </section>
 
-       {/*<h3>Asia</h3>*/}
-       {/*<section className="covers">*/}
-       {/*    {content.filter((item) => item.group === 'Asia').map((country, i) => (*/}
-       {/*        <comp.cover title={country.title} url={country.url} thumbnail={country.thumbnail} key={i}/>*/}
-       {/*    ))}*/}
-       {/*</section>*/}
+       <h3>Asia</h3>
+       <section className="covers">
+           {content.filter((item) => item.group === 'Asia').map((country, i) => (
+               <comp.cover title={country.name} url={'countries/'+country.url} thumbnail={country.thumbnail} key={i}/>
+           ))}
+       </section>
 
-       {/*<h3>North America</h3>*/}
-       {/*<section className="covers">*/}
-       {/*    {content.filter((item) => item.group === 'North America').map((country, i) => (*/}
-       {/*        <comp.cover title={country.title} url={country.url} thumbnail={country.thumbnail} key={i}/>*/}
-       {/*    ))}*/}
-       {/*</section>*/}
+       <h3>North America</h3>
+       <section className="covers">
+           {content.filter((item) => item.group === 'North America').map((country, i) => (
+               <comp.cover title={country.name} url={'countries/'+country.url} thumbnail={country.thumbnail} key={i}/>
+           ))}
+       </section>
 
-       {/*<h3>South America</h3>*/}
-       {/*<section className="covers">*/}
-       {/*    {content.filter((item) => item.group === 'South America').map((country, i) => (*/}
-       {/*        <comp.cover title={country.title} url={country.url} thumbnail={country.thumbnail} key={i}/>*/}
-       {/*    ))}*/}
-       {/*</section>*/}
+       <h3>South America</h3>
+       <section className="covers">
+           {content.filter((item) => item.group === 'South America').map((country, i) => (
+               <comp.cover title={country.name} url={'countries/'+country.url} thumbnail={country.thumbnail} key={i}/>
+           ))}
+       </section>
+
    </section>
 
        <comp.footer />

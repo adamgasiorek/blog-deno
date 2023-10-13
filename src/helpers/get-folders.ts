@@ -10,7 +10,7 @@ const storage = getStorage();
 
 export default async function getFolders(url) {
     const list = await listAll(ref(storage, url));
-    const folders = await Promise.all(list.prefixes.slice(0,2).map(async (item) => {
+    const folders = await Promise.all(list.prefixes.map(async (item) => {
         const path = url + item.name;
         const images = await getImages(path);
         let mainImage = '';

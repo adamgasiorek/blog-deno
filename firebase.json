@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "predeploy": [
+      "deno task build"
+    ],
+    "public": "_site",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -36,7 +36,7 @@ export default async function getImages(url) {
 
         let isTall = false;
         if(!isVideo) {
-            isTall = await getSize(path);
+            isTall = await getSize(thumbnail);
         }
         return {path, isVideo, isTall, thumbnail};
     }));
