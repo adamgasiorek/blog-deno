@@ -21,6 +21,7 @@ site.copy('./assets/main.js', "main.js");
 site.copy('./assets/favicon.ico', "assets/favicon.ico");
 site.copy('./assets/logo.png', "assets/logo.png");
 site.copy('./assets/me.jpeg', "assets/me.jpeg");
+site.copy('./assets/scripts', "scripts");
 
 site.use(metas());
 
