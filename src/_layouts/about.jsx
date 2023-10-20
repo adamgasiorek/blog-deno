@@ -9,7 +9,7 @@ export default ({ title, content, comp}, filters) => (
         <title>{title}</title>
         <link rel="stylesheet" href="/styles/styles.css" />
 
-        <script src="/main.js" type="text/javascript"></script>
+        <script src="/assets/main.js" type="text/javascript"></script>
     </head>
    <body>
    <section className="container">

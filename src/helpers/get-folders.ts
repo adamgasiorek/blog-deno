@@ -1,11 +1,16 @@
-import * as firebase from "https://esm.sh/firebase@10.3.1/app";
-import { getStorage, ref, uploadBytes, getDownloadURL, listAll, getMetadata } from "https://esm.sh/firebase@10.3.1/storage";
+import firebase from 'npm:firebase-admin';
+import { initializeApp } from "npm:firebase/app";
+import { getStorage, ref, uploadBytes, getDownloadURL, listAll, getMetadata } from "npm:firebase/storage";
+
+
+
 import decode from "https://deno.land/x/wasm_image_decoder@v0.0.7/mod.js";
 import getImages from "./get-images.ts";
 
+
 const firebaseConfig = JSON.parse(Deno.env.get("ACCOUNT_KEY"));
-const app = firebase.initializeApp(firebaseConfig);
-const storage = getStorage();
+const firebaseApp = initializeApp(firebaseConfig);
+const storage = getStorage(firebaseApp);
 
 
 export default async function getFolders(url) {
@@ -17,7 +22,7 @@ export default async function getFolders(url) {
         let mainImageThumbnail = '';
 
         if(images.length > 0) {
-            mainImage = (images.filter(image => image.path.includes('main'))[0]?.path ?? "");
+            mainImage = (images.filter(image => image.path.includes('main'))[0]?.path ?? images[0]?.path);
             const splittedPath = mainImage.split("%2F");
             let thumbnail = '';
             if(splittedPath.length === 2) {
@@ -35,7 +40,7 @@ export default async function getFolders(url) {
             const pathNested = url + item.name + '/' + folderNested[0];
             const imagesNested = await getImages(pathNested);
 
-            mainImage = (imagesNested.filter(image => image.path.includes('main'))[0]?.path ?? "");
+            mainImage = (imagesNested.filter(image => image.path.includes('main'))[0]?.path ?? imagesNested[0]?.path);
             const splittedPath = mainImage.split("%2F");
             let thumbnail = '';
             if(splittedPath.length === 2) {
