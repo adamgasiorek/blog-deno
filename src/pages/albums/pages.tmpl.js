@@ -11,7 +11,6 @@ export default async function* () {
         const folders = await getFolders(name);
         for (const folder of folders) {
             const folderNested = await getFolders(name + folder.url + '/');
-            console.log(folderNested.length, name + folder.url + '/');
 
             if(folderNested.length === 0) {
                 const images = await getImages(name + folder.url);

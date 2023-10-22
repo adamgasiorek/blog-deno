@@ -9,7 +9,7 @@ export default ({ title, content, comp}, filters) => (
         <title>{title}</title>
         <link rel="stylesheet" href="/styles/styles.css" />
 
-        <script src="/assets/main.js" type="text/javascript"></script>
+        <script src="/scripts/main.js" type="text/javascript"></script>
     </head>
    <body>
    <section className="container">
@@ -21,7 +21,6 @@ export default ({ title, content, comp}, filters) => (
    </section>
        <comp.footer />
 
-       <script src="/components.js" type="text/javascript"></script>
    </body>
     </html>
 );

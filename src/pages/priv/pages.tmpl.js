@@ -23,7 +23,6 @@ const getOrder = (url) => {
 export default async function* () {
     const foldersPriv = await getFolders("priv/");
 
-
     yield {
         url: `/priv/index.html`,
         title: `Adam Gasiorek`,

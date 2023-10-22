@@ -21,11 +21,11 @@ export default async function getImages(url) {
     const storageRef = ref(storage, url);
 
     const list = await listAll(storageRef);
-    const filteredList = list.items.filter( (item) => item.name.includes('thumb-') === false)
+    const filteredList = list.items.filter( (item) => !item.name.includes('thumb-') && !item.name.includes('.DS_Store') )
 
     const images = await Promise.all(filteredList
         .map(async (item) => {
-        const meta = await getMetadata(item);
+            const meta = await getMetadata(item);
         const isVideo = meta.contentType === "video/mp4" || meta.contentType === "video/quicktime";
         const path = await getDownloadURL(item);
             const splittedPath = path.split("%2F");

@@ -24,7 +24,7 @@ for await (let item of asyncGenDirectories) {
 }
 
 for await (let path of paths) {
-    await Deno.rename(path, path.replace(' ', '_'));
+    await Deno.rename(path, path.replaceAll(' ', '_'));
 }
 
 const asyncGen = await walk(`thumbs`, {
