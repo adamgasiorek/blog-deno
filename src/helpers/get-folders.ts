@@ -23,7 +23,7 @@ export default async function getFolders(url) {
         let mainImageThumbnail = '';
 
         if(images.length > 0) {
-            const sortedValues = images.sort((a, b) => b.name.startsWith('main') - a.name.startsWith('main'));
+            const sortedValues = images.sort((a, b) => b.name.includes('main') - a.name.includes('main'));
             const imageURL = await getDownloadURL(sortedValues[0]);
             mainImage = imageURL;
             mainImageThumbnail = mainImage;
@@ -33,7 +33,8 @@ export default async function getFolders(url) {
             const pathNested = url + item.name + '/' + folderNested[0];
             const imagesData = await listAll(ref(storage, pathNested));
             const imagesNested = imagesData.items.filter(item => !item.name.includes('.DS_Store') && item.name.includes('thumb-'));
-            const sortedValues = imagesNested.sort((a, b) => b.name.startsWith('main') - a.name.startsWith('main'));
+
+            const sortedValues = imagesNested.sort((a, b) => b.name.includes('main') - a.name.includes('main'));
             const imageURL = await getDownloadURL(sortedValues[0]);
             mainImage = imageURL;
             mainImageThumbnail = mainImage;
