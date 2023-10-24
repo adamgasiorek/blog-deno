@@ -3,6 +3,7 @@
     "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
     "build": "deno task lume",
     "thumbs": "deno run -A --no-check ./gen-thumbs.ts",
+    "deploy": "firebase deploy",
     "start": "deno task lume -s"
   },
   "imports": {
