@@ -37,6 +37,7 @@ export default async function getImages(url) {
         } else if(splittedPath.length === 4) {
             thumbnail = splittedPath[0] + '%2F' + splittedPath[1] + '%2F' + splittedPath[2] + `%2Fthumb-${splittedPath[3]}`;
         }
+        thumbnail = thumbnail.replaceAll("mp4", "jpeg").replaceAll("mov", "jpeg");
 
         let isTall = false;
         if(!isVideo) {
