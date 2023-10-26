@@ -88,10 +88,7 @@ export default function ({images}) {
                             {image.isVideo ?
                                 <div className="image-img" data-img={image.path}>
                                     <div className="play">&#9654;</div>
-                                    <video muted className="image-img2">
-                                        <source src={image.path} type="video/mp4" />
-                                    </video>
-                                    {/*<img className="image-img2" src={image.path}/>*/}
+                                    <img className="image-img2" src={image.thumbnail}/>
                                 </div>
                                 :
                                 <img className="image-img" data-img={image.path}
